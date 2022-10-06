@@ -62,7 +62,7 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button">Замовити послугу</button>
+        <button data-modal-open class="button">Замовити послугу</button>
       </section>
       <section class="section-feature">
         <div class="container">
@@ -440,11 +440,11 @@
          </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button aria-label="close" class="modal-button">
+        <button data-modal-close aria-label="close" class="modal-button">
           <svg class="modal-close-icon" width="11" height="11">
-            <use href="./images/portfolio/close-modal.svg"></use>
+            <use href="./images/portfolio/symbol-defs.svg#icon-Vector"></use>
           </svg>
         </button>
       </div>
